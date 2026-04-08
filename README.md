@@ -59,7 +59,7 @@ EazyAcres focuses on decision clarity:
 <img src="./screenshots:/feasibility-results.jpg" width="300" />
 
 ### 🧠 Build Recommendation Engine
-<img src="./screenshots:/dashboard+.jpg" width="300" />
+<img src="./screenshots:/welcome-back.jpg" width="300" />
 
 ---
 
