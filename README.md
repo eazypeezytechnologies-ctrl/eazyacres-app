@@ -1,6 +1,6 @@
-> ⚡ Actively building in public — rapid iteration, real-world feedback, and continuous improvements
-
 # 🏡 EazyAcres – Land & Development Deal Analyzer
+
+> ⚡ Actively building in public — rapid iteration, real-world feedback, and continuous improvements
 
 “Analyze land. Validate deals. Build smarter.”
 
@@ -18,28 +18,29 @@ It helps users:
 - Make smarter real estate decisions
 
 ---
-🚀 Major Update 4.9.2026 – Real Data + UX Flow Improvements
+## 🔄 Recent Updates / Dev Log
+### 📅 Latest Update — April 9, 2026 – Real Data + UX Flow Improvements
 
 Today marked a major step forward in transforming EazyAcres from a concept tool into a real-world decision platform.
 
 ⸻
 
-🧠 Smart Property Intelligence (Live Data Integration)
+#### 🧠 Smart Property Intelligence (Live Data Integration)
 	•	Integrated Google Places API (via secure proxy) for address autocomplete and structured location data
 	•	Connected Regrid API for parcel-level enrichment (lot size, zoning, property details)
 	•	Implemented server-side API protection using Supabase Edge Functions
 	•	API keys are never exposed to the client
 	•	Real-time enrichment flow:
-	1.	User types address → autocomplete suggestions
-	2.	Selection returns structured address + coordinates
-	3.	Backend fetches parcel/property data
-	4.	Fields auto-populate with verified vs estimated tagging
+		1.	User types address → autocomplete suggestions
+		2.	Selection returns structured address + coordinates
+		3.	Backend fetches parcel/property data
+		4.	Fields auto-populate with verified vs estimated tagging
 
 ✅ Result: Users now get real property data instead of assumptions
 
 ⸻
 
-🧾 Data Transparency System
+#### 🧾 Data Transparency System
 	•	Added data source labeling:
 	•	Verified (real data)
 	•	Auto-filled
@@ -55,7 +56,7 @@ Today marked a major step forward in transforming EazyAcres from a concept tool 
 
 ⸻
 
-🧮 Feasibility + AI Planning Improvements
+#### 🧮 Feasibility + AI Planning Improvements
 	•	Enhanced feasibility engine:
 	•	Buildable area calculations
 	•	Structure sizing ranges
@@ -71,7 +72,7 @@ Today marked a major step forward in transforming EazyAcres from a concept tool 
 
 ⸻
 
-🏗️ Smart Layout Generator (Visual Planning)
+#### 🏗️ Smart Layout Generator (Visual Planning)
 	•	Built a visual lot layout system:
 	•	Street, neighbors, rear clearly defined
 	•	Existing vs proposed structures
@@ -83,7 +84,7 @@ Today marked a major step forward in transforming EazyAcres from a concept tool 
 
 ⸻
 
-🧭 UX Fixes + Flow Improvements
+#### 🧭 UX Fixes + Flow Improvements
 	•	Fixed:
 	•	Safe area / header issues (tap targets, logout accessibility)
 	•	Duplicate edit buttons
@@ -94,7 +95,7 @@ Today marked a major step forward in transforming EazyAcres from a concept tool 
 
 ⸻
 
-⚠️ Key UX Insight (Current Focus)
+#### ⚠️ Key UX Insight (Current Focus)
 
 The biggest gap identified:
 
@@ -112,7 +113,7 @@ Planned solution:
 
 ⸻
 
-🛠️ Technical Highlights
+#### 🛠️ Technical Highlights
 	•	React Native (Expo) + TypeScript
 	•	Supabase (Auth, DB, Edge Functions)
 	•	React Query for state + caching
@@ -121,7 +122,7 @@ Planned solution:
 
 ⸻
 
-📍 Current Status
+#### 📍 Current Status
 
 ✅ Core system functional
 ✅ Real data integration working
@@ -130,44 +131,55 @@ Planned solution:
 
 ⸻
 
-💡 Vision
+#### 💡 Vision
 
 EazyAcres is evolving into:
 
-A deal analysis + execution planning platform
-that helps users go from “I have land” → “Here’s exactly what to build and how to do it.”
+A deal analysis + execution platform that helps users go from:
 
-## 🚀 Latest Update 4.8.2026 (Phase 1 → Phase 2 Transition)
+🏡 “I have land”  
+➡️  
+📈 “Here’s exactly how to turn it into value — and what to do next.”
+
+⸻
+
+#### 🚧 In Progress
+
+- Reality Check + Next Steps (permits, zoning, execution guidance)
+- Interior renovation visualization improvements
+- Expanded real-data coverage (ATTOM integration)
+
+### 🚀 Latest Update — April 8, 2026 (Phase 1 → Phase 2 Transition)
 
 Major stability and UX improvements completed:
 
-### 🔧 Core Fixes
+#### 🔧 Core Fixes
 - Fixed React navigation bug (setState during render)
 - Implemented proper auth flow with loading states
 - Verified full data persistence across sessions
 - Added Edit + Delete property flows
 - Fixed mobile safe area / header tap issues
 
-### 🧠 Beginner-Friendly Mode
+#### 🧠 Beginner-Friendly Mode
 - Users can start with just an address
 - Auto-estimates lot size, zoning, and dimensions
 - Clearly labels estimated vs manual data
 
-### 📊 Feasibility Improvements
+#### 📊 Feasibility Improvements
 - No more 0 sqft results
 - Buildable area now shown as ranges
 - Added realistic structure size guidance
 
-### 🧬 Property Intelligence Layer
+#### 🧬 Property Intelligence Layer
 - Location-aware property estimates
 - Field-level data source tracking (Estimated / Manual / Future fetched)
 - “What Can I Build Here?” upgraded with real guidance tiers
 
-### 🎯 Result
+#### 🎯 Result
 EazyAcres is now a functional MVP that guides users from:
 **address → analysis → strategy → planning**
 
-### 🔜 Next
+#### 🔜 Next
 - Smart Layout Generator (visual planning)
 - Permit guidance system
 - Build plan reports
