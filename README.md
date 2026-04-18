@@ -19,6 +19,79 @@ It helps users:
 
 ---
 ## 🔄 Recent Updates / Dev Log
+
+## 🚀 April 17, 2026 — Major Stability + UX Update
+
+EazyAcres has entered a strong testing phase with major improvements focused on authentication, user flow clarity, and real-world usability.
+
+### 🔐 Authentication Fixes
+- Fixed critical signup failure (`Database error saving new user`)
+- Resolved Google OAuth flow (callback + session exchange)
+- Implemented SPA routing fix for Netlify (no more 404 on auth routes)
+- Added password reset flow (forgot + reset screens)
+- Improved mobile keyboard handling across all auth screens
+
+### 🧠 User Experience Improvements
+- Added **"What this means for you"** insights across property + ideas
+- Introduced **Next Step guidance** to remove user confusion
+- Improved Explore screen with clearer feasibility filtering
+- Added personalization (location-based context)
+
+### 🏗️ Planning Experience
+- Replaced dead-end success alert with:
+  - "Explore Scenarios"
+  - "Return to Property"
+  - "Keep Editing"
+- Improved clarity of planning phases and outcomes
+
+### 🛠️ Support System (NEW)
+- Built full **Support Request Flow**
+- Users can now:
+  - Report issues
+  - Submit feedback
+  - Attach context (location, goal, category)
+- Added Admin Support Console with:
+  - Request queue
+  - AI Copilot guidance
+  - Status tracking (New → Resolved)
+
+### 🧑‍💼 Admin System
+- Role-based routing (admin/support vs user)
+- Admin advisory workspace implemented
+- AI Copilot suggests:
+  - likely cause
+  - next action
+  - response draft
+
+### 🏡 Ownership Intelligence (NEW)
+- Added **Ownership Structure Card**
+  - Personal ownership vs Trust vs Guidance
+- Helps users understand long-term property control strategies
+
+---
+
+## ⚠️ Current Focus (Pre-Launch Testing)
+- Finalizing Google OAuth stability
+- Verifying identity linking (email vs Google)
+- Ensuring admin routing consistency
+- Validating support request submission flow
+- Improving property data trust and accuracy
+
+---
+
+## 🧪 Status
+EazyAcres is now in **active real-user testing** phase.
+
+Core flows are functional:
+- Signup/Login ✅
+- Property entry ✅
+- Idea exploration ✅
+- Planning system ✅
+- Support system ✅
+
+Now refining:
+👉 trust, clarity, and real-world execution
+
 ### 📅 Latest Update — April 9, 2026 – Real Data + UX Flow Improvements
 
 Today marked a major step forward in transforming EazyAcres from a concept tool into a real-world decision platform.
