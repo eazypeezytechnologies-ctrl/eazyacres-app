@@ -1,5 +1,9 @@
 # 🏡 EazyAcres
 
+<p align="center">
+  <img src="assets/eazyacres-logo.svg" alt="EazyAcres logo" width="420">
+</p>
+
 **A property-readiness and land-intelligence platform built to help people understand what may be possible, what it may cost, and what must still be verified.**
 
 > **Public showcase repository**  
